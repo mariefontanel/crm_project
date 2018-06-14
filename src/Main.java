@@ -23,7 +23,7 @@ public class Main {
         String city = scanner.next(); // record string
 
         System.out.println("Quel est votre numéro de téléphone ? "); // ask question phone number in the terminal
-        int phoneNumber = scanner.nextInt(); // record integer
+        String phoneNumber = scanner.next(); // record integer
 
         scanner.close();
 

@@ -4,7 +4,7 @@ public class Person {
     private String lastname;
     private String firstname;
     private String city;
-    private int phoneNumber;
+    private String phoneNumber;
 
     /**
      *
@@ -42,7 +42,7 @@ public class Person {
      *
      * @param phoneNumber
      */
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -74,8 +74,8 @@ public class Person {
      *
      * @return
      */
-    public int getPhoneNumber() {
-        return phoneNumber;
+    public String getPhoneNumber() {
+        return "Téléphone : " + phoneNumber;
     }
 
     /**
