@@ -67,7 +67,7 @@ public class Person {
      * @return
      */
     public String getCity() {
-        return city;
+        return "Adresse: " + city;
     }
 
     /**
